@@ -5,7 +5,7 @@ import rozetka.page.elem.SearchFieldElem;
 
 public class MainPage {
 
-    private SearchFieldElem searchField = new SearchFieldElem(W);
+    private SearchFieldElem searchField = new SearchFieldElem();
     private ButtonElem bucket = new ButtonElem();
     private ButtonElem wish = new ButtonElem();
 

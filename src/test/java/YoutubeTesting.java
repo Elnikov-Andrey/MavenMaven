@@ -35,7 +35,7 @@ public class YoutubeTesting {
         Assertions.assertTrue(url.equals("https://www.youtube.com/"));
         System.out.println("URL done");
 
-        WebElement searchInput = driver.findElementById("search");
+        WebElement searchInput = driver.findElementByName("search");
         searchInput.sendKeys("смешарики");
         searchInput.sendKeys(Keys.ENTER);
         Thread.sleep(3000);
